@@ -13,20 +13,20 @@
     }
 
     ul#navigation {
-      height: 70px;
+      height: 40px;
       list-style: none;
       margin: 0;
       padding: 0;
-      border: 1px solid #ccc;
+      border: 1px #ccc;
       border-width: 1px 0;
       text-align: center;
       font-size: 18px;
       font-family: 'Cham-WebFont', Arial, sans-serif;
-      background-color: #FFF;
+      background-color: #4C00B2;
       position: fixed;
       bottom: 0;
       width: 100%;
-    }    
+    }
     ul#navigation li {
       display: inline;
       margin-right: .75em;
@@ -37,19 +37,34 @@
     ul#navigation li.last {
       margin-right: 0;
     }
+    .download{
+      text-decoration: none;
+      background-color: #FFFB50;
+      color: #4500B2;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-style: double
+    }
+    .download:hover{
+      text-decoration: none;
+      background-color: #4500B2;
+      color: #FFFB50;
+    }
+
   </style>
 
 </head>
 
 <body>
 
-  <div>
-    <a href='http://bit.ly/1U9AMgQ'> Download & Git Started! </a>
+  <div class='download'>
+    <a href='http://bit.ly/1U9AMgQ'> Download</a>
   </div>
 
   <div class="Bottom-toolbar">
     <div id="MenuContainer">
-
       <ul id="navigation">
             Developed by
           <a href="http://bit.ly/1TRT3Pq"> Andy</a>,
@@ -57,8 +72,8 @@
           <a href="http://bit.ly/1Z6lc4O"> Isaac</a>
         </li>
       </ul>
-
     </div>
+  </div>
 
 </body>
 
