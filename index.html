@@ -3,14 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>GitSchooled</title>
+
+
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+
+
+html,body {
+height:100%;  /* new */
+}
+
+ul#navigation {
+  height: 70px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Cham-WebFont', Arial, sans-serif;
+  background-color: #FFF;
+  position: fixed;   /* new */
+  bottom: 0;  /* new */
+  width: 100%;  /* new */
+}
+
+ul#navigation li {
+  display: inline;
+  margin-right: .75em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#navigation li.last {
+  margin-right: 0;
+}
+</style>
+
   </head>
   <body>
 
-    Hello World
-
   <div>
-    <a href='http://bit.ly/1U9AMgQ'> Download & Git Started! </a>  
+    <a href='http://bit.ly/1U9AMgQ'> Download & Git Started! </a>
   </div>
+
+  <div class="MainContainer">
+    <div id="MenuContainer">
+      <ul id="navigation">
+        <li class="x"><a title="1" a href="indexX-1.html">Feedback</a></li>
+        <li class="x"><a title="2" a href="#">Github</a></li>
+        <li class="x">
+          <a title="3" href="#">
+            Developed by
+          <a href="https://www.linkedin.com/in/ankhong"> Andy</a>,
+          <a href="https://www.linkedin.com/in/hamzasurti">Hamza</a>, &
+          <a href="https://www.linkedin.com/in/isaacdurand">Isaac</a>
+          </a>
+        </li>
+      </ul>
+    </div>
 
   </body>
 </html>
